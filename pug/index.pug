@@ -1,0 +1,34 @@
+doctype html
+html(lang="en")
+    head
+        meta(charset="utf-8")
+        meta(http-equiv="x-ua-compatible", content="ie=edge")
+        meta(name="viewport", content="width=device-width, initial-scale=1")
+        title Flying Cards
+        link(rel="stylesheet", href="css/screen.css")
+    body
+
+        ul.container
+            li
+                article.card
+                    a.card__link(href="#")
+                        img.card__base-layer(src="img/revenant.jpg", alt="Revenant")
+                        div.card__shining
+            li
+                article.card
+                    a.card__link(href="#")
+                        img.card__base-layer(src="img/interstellar_sky.png", alt="Sky")
+                        div.card__shining
+                        img.card__additional-layer(src="img/interstellar_mountain_bottom.png", alt="Mountain")
+                        img.card__additional-layer(src="img/interstellar_mountain_top.png", alt="Mountain")
+                        img.card__additional-layer(src="img/interstellar_astronaut.png", alt="Astronaut")
+                        img.card__additional-layer(src="img/interstellar_snow.png", alt="Snow")
+            li
+                article.card
+                    a.card__link(href="#")
+                        img.card__base-layer(src="img/martian.jpg", alt="Martian")
+                        div.card__shining
+
+        script(src="https://code.jquery.com/jquery-2.2.3.min.js", integrity="sha256-a23g1Nt4dtEYOj7bR+vTu7+T8VP13humZFBJNIYoEJo=", crossorigin="anonymous")
+        script(src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.4/TweenMax.min.js")
+        script(src="js/main.js")

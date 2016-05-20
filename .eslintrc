@@ -1,0 +1,14 @@
+{
+    "parserOptions": {
+        "ecmaVersion": 5,
+        "sourceType": "script"
+    },
+    "env": {
+        "browser": true,
+        "node": true,
+        "jquery": true
+    },
+    "rules": {
+        semi: ["error", "always"]
+    }
+}
